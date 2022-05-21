@@ -1,4 +1,4 @@
 function avisaGeral() {
-    console.log('O codigo furunciou!!!!!')
+    alert('O codigo furunciou!!!!!')
 }
-avisaGeral
+avisaGeral();
