@@ -8,4 +8,4 @@ for (let i = spaceshipName.length - 1; i >= 0; i--) {
     invertedName += spaceshipName[1];
 }
 
-alert('Nome da nave: ' + spaceshipName + "\nNome após inverção: " + invertedName);
+alert('Nome da nave: ' + spaceshipName + "\nNome após inversão: " + invertedName);
