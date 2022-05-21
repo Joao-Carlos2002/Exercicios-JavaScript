@@ -1,13 +1,11 @@
-let spaceshipName = prompt('Digite o nome da nave:')
-let letterSwitch = prompt('Qual a letra que vc deseja trocar?')
-let letterTrade = prompt('Por qual letra vc quer trocar?')
-let newSpaceshipName = ''
-for (let n = spaceshipName.length - 1; n >= 0; n--) {
-    if (spaceshipName[n]) {
+let spaceshipName = prompt("Qual o nome da nave?");
 
-    } else {
-        newSpaceshipName += spaceshipName[n]
+let invertedName = ""
+for (let i = spaceshipName.length - 1; i >= 0; i--) {
+    if (spaceshipName[i] == 'e') {
+        break
     }
+    invertedName += spaceshipName[1];
 }
 
-alert(newSpaceshipName)
+alert('Nome da nave: ' + spaceshipName + "\nNome após inverção: " + invertedName);
