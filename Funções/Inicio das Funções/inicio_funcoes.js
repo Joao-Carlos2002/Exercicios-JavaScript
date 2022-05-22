@@ -3,9 +3,10 @@ function avisaGeral() {
 }
 
 function greetPilot(name, message = 'Olá') {
+    name = ' João'
     alert(message + ',' + name)
 }
 
 
-greetPilot()
 avisaGeral()
+greetPilot()
